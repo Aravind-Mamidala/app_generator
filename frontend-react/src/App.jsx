@@ -25,7 +25,7 @@ function App() {
 
     try {
       setLoading(true);
-      const res = await fetch(`http://localhost:5001/api/${entityName}`, {
+      const res = await fetch(`https://app-generator-7qoq.onrender.com/api/${entityName}`, {
         headers: { Authorization: token },
       });
 
@@ -45,7 +45,7 @@ function App() {
   const handleAdd = async (formData) => {
     const token = localStorage.getItem("token");
 
-    const res = await fetch(`http://localhost:5001/api/${entityName}`, {
+    const res = await fetch(`https://app-generator-7qoq.onrender.com/api/${entityName}`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -67,7 +67,7 @@ function App() {
     const formData = new FormData();
     formData.append("file", file);
 
-    const res = await fetch(`http://localhost:5001/upload/${entityName}`, {
+    const res = await fetch(`https://app-generator-7qoq.onrender.com/upload/${entityName}`, {
       method: "POST",
       headers: {
         Authorization: localStorage.getItem("token"),
