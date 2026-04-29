@@ -238,3 +238,8 @@ This project demonstrates:
 ---
 
 ⭐ If you like this project, feel free to star the repo!
+
+<img width="1349" height="414" alt="app-gen3" src="https://github.com/user-attachments/assets/0de57ebd-4e09-47ed-a950-337345bdcf76" />
+
+<img width="1349" height="639" alt="app-gen2" src="https://github.com/user-attachments/assets/1babc263-294d-4882-aa19-94ec5727d353" />
+
