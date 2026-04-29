@@ -8,8 +8,8 @@ function Login({ setIsLoggedIn }) {
   const handleSubmit = async () => {
     try {
       const url = isSignup
-        ? "http://localhost:5001/auth/signup"
-        : "http://localhost:5001/auth/login";
+        ? "https://app-generator-7qoq.onrender.com/auth/signup"
+        : "https://app-generator-7qoq.onrender.com/auth/login";
 
       console.log("Calling:", url);
 
@@ -44,7 +44,6 @@ function Login({ setIsLoggedIn }) {
           alert(data.error || "Login failed");
         }
       }
-
     } catch (err) {
       console.error("Login error:", err);
       alert("Something went wrong");
