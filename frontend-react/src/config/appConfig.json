@@ -1,0 +1,12 @@
+{
+    "appName": "Task Manager",
+    "entities": [
+      {
+        "name": "tasks",
+        "fields": [
+          { "name": "title", "type": "text" },
+          { "name": "status", "type": "select", "options": ["todo", "done"] }
+        ]
+      }
+    ]
+  }
