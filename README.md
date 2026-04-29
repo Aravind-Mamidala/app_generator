@@ -214,7 +214,7 @@ CREATE TABLE tasks (
 
 ## 🎥 Demo Video
 
-(Add Loom link here)
+https://www.loom.com/share/c933073b33e749edb02d0fb599d2b1e2
 
 ---
 
